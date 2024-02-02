@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  
+
   // Table of Contents with links
   const tableOfContents = `
 ## Table of Contents
@@ -12,6 +12,8 @@ function generateMarkdown(data) {
 - [Tests](#tests)
 - [Questions](#questions)
 `;
+
+const licenseBadgeUrl = `https://img.shields.io/badge/license-${data.license}-brightgreen`;
 
   // README content
   const readmeContent = `
