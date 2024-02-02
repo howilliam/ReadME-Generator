@@ -13,8 +13,6 @@ function generateMarkdown(data) {
 - [Questions](#questions)
 `;
 
-const licenseBadgeUrl = `https://img.shields.io/badge/license-${data.license}-brightgreen`;
-
   // README content
   const readmeContent = `
 # ${data.title}
@@ -35,7 +33,7 @@ ${data.usage}
 ## License
 This application is covered under the ${
     data.license
-  } license. [![License](${licenseBadgeUrl})](${getLicenseLink(data.license)})
+  } license.
 
 ## Contributing
 ${data.contribution}
