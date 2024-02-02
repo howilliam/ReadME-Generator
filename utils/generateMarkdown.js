@@ -17,8 +17,6 @@ function generateMarkdown(data) {
   const readmeContent = `
 # ${data.title}
 
-${licenseBadgeUrl}
-
 ## Description
 ${data.description}
 
